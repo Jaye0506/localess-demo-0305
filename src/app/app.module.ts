@@ -71,9 +71,9 @@ import { IMAGE_LOADER, ImageLoaderConfig } from '@angular/common';
       if (environment.useEmulators) {
         connectFunctionsEmulator(functions, 'localhost', 5001);
         //functions.customDomain = 'http://localhost:4200/api'
-        functions.region = 'europe-west6';
+        functions.region = 'asia-east1';
       } else {
-        functions.region = 'europe-west6';
+        functions.region = 'asia-east1';
       }
       return functions;
     }),
